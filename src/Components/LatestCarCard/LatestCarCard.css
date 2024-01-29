@@ -1,0 +1,61 @@
+.LatestCarCardContainer {
+    position: relative;
+}
+
+.LatestCarCardImage {
+    width: 275px;
+    height: 381px;
+    object-fit: cover;
+}
+
+.LatestCarCardTextContainer {
+    position: absolute;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.47);
+    backdrop-filter: blur(3.5px);
+    padding: 0px 15px;
+}
+
+.LatestCarCardTitle {
+    color: #FFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.LatestCarCardText {
+    color: #FFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.LatestCarCardBottomContainer {
+    position: absolute;
+    bottom: 15px;
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.LatestCarCardBottomText {
+    color: #FF7A00;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.LatestCarCardBottomLine {
+    width: 99px;
+    height: 3px;
+    flex-shrink: 0;
+    background-color: #FFF;
+    margin-left: 10px;
+}

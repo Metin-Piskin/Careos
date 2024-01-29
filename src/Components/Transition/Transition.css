@@ -1,0 +1,36 @@
+.TransitionContainer {
+    position: relative;
+}
+
+.TransitionImage {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.TransitionTextContainer {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+.TransitionTextOne {
+    color: #FFF;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.TransitionTextTwo {
+    color: #FF7A00;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

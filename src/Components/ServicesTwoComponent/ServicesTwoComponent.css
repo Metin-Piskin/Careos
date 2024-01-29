@@ -1,0 +1,46 @@
+.ServicesTwoComponentContainer {
+    display: flex;
+    padding: 50px 0px;
+}
+
+.ServicesTwoComponentImg {
+    width: 830px;
+    height: 368px;
+}
+
+.ServicesTwoComponentInnerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 50px;
+}
+
+.ServicesTwoComponentTitle {
+    color: #FF7A00;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: -0.45px;
+}
+
+.ServicesTwoComponentOneText {
+    color: rgba(0, 0, 0, 0.80);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.36px;
+}
+
+.ServicesTwoComponentTwoText {
+    color: rgba(0, 0, 0, 0.80);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.27px;
+}
